@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+}
+h1{
+    font-weight: 700;
+    margin-top: 50px;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+  
+}
+
+.block{
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(184, 183, 183);
+    text-align: left;
+    position: relative;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 60px;
+    overflow: hidden;
+    background: white;
+    transition:  1s ease-in-out;
+    background-position: 180%;
+}
+
+.block_set{
+    margin: 0 auto;
+    width: 550px;
+    margin-top: 50px;
+
+    
+}
+
+
+
+.subtile{
+    margin-top:20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color:rgb(102, 102, 102);
+}
+
+.title{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.button{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}

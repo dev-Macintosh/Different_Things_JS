@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(194, 83, 101);
+}
+
+#input{
+    font-size: 50px;
+    margin-top: 40vh;
+    line-height: 1.2em;
+    width: 600px;
+}
+
+.containr{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    height: 60vh;
+    position: relative;
+}
+
+.speed{
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+  background: rgb(151, 34, 54);
+    width: 100px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+}
+input{
+    margin-top: 3px;
+    width: 40px;
+    height: 15px;
+    display: block;
+    margin-left: 10px;
+    background: darkblue;
+    border: 3px solid darkblue
+}

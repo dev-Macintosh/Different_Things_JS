@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background: rgb(201, 201, 201);
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+.flex{
+    margin-top: 30vh;
+    display: flex;
+}
+.one{
+    margin: 20px;
+}
+#block,#block_1,#block_2{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background: white;
+    border:1px solid rgb(148, 147, 147);
+    font-size: 24px;
+    color:black;
+}
